@@ -1,0 +1,6 @@
+{
+  "name": "Simple Notes",
+  "description": "A beautiful, premium, and fully-functional local notes application featuring pastel color customization, categorized filters, pinned notes support, and local database storage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

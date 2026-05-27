@@ -1,0 +1,58 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center container safe bounds (66dp): 21 to 87 -->
+    
+    <!-- Notepad Sheet shadow -->
+    <path
+        android:fillColor="#20000000"
+        android:pathData="M37,29 h40 c2.2,0 4,1.8 4,4 v44 c0,2.2 -1.8,4 -4,4 h-40 c-2.2,0 -4,-1.8 -4,-4 v-44 c0,-2.2 1.8,-4 4,-4 z" />
+
+    <!-- Notepad Sheet Base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,27 h40 c2.2,0 4,1.8 4,4 v44 c0,2.2 -1.8,4 -4,4 h-40 c-2.2,0 -4,-1.8 -4,-4 v-44 c0,-2.2 1.8,-4 4,-4 z" />
+
+    <!-- Notepad Top Band (Material Accent Red/Orange) -->
+    <path
+        android:fillColor="#FF7043"
+        android:pathData="M35,27 h40 c2.2,0 4,1.8 4,4 v8 h-48 v-8 c0,-2.2 1.8,-4 4,-4 z" />
+
+    <!-- Paper Binder Rings -->
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M42,21 c1.1,0 2,0.9 2,2 v6 c0,1.1 -0.9,2 -2,2 c-1.1,0 -2,-0.9 -2,-2 v-6 c0,-1.1 0.9,-2 2,-2 z" />
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M54,21 c1.1,0 2,0.9 2,2 v6 c0,1.1 -0.9,2 -2,2 c-1.1,0 -2,-0.9 -2,-2 v-6 c0,-1.1 0.9,-2 2,-2 z" />
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M66,21 c1.1,0 2,0.9 2,2 v6 c0,1.1 -0.9,2 -2,2 c-1.1,0 -2,-0.9 -2,-2 v-6 c0,-1.1 0.9,-2 2,-2 z" />
+
+    <!-- Notepad Lines (Light Blue-Grey) -->
+    <path
+        android:strokeColor="#CFD8DC"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M41,47 h28 M41,56 h22 M41,65 h14" />
+
+    <!-- Diagonal Soft Pencil/Pen drawing across the pad -->
+    <!-- Pencil Body (Golden Amber) -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M64,52 l8,-8 l10,10 l-8,8 z" />
+    <!-- Pencil Tip (Wood colored) -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M64,52 l4,5 l-5,-4 z" />
+    <!-- Pencil Lead Point (Black) -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M63,53 l1.5,1.5 l-1.5,0 z" />
+    <!-- Pencil Eraser (Pink) -->
+    <path
+        android:fillColor="#FF8A80"
+        android:pathData="M81.5,53.5 l3,-3 c0.8,-0.8 2,-0.8 2.8,0 c0.8,0.8 0.8,2 0,2.8 l-3,3 z" />
+</vector>
